@@ -35,8 +35,8 @@ $( "#startButton" ).click(function() {
   });
 
 function countdown() {
+    
     if (timeLeft == -1) {
-        // clearInterval(timerId);
         $( ".mainPage" ).hide();
         $( "#gameOver" ).show();
         $("#gameOverScreen").show();

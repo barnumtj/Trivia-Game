@@ -1,5 +1,5 @@
 #background {
-    background-image: url("/Users/kaceehiggins/Documents/BootCamp/Trivia-Game/assets/images/startbackground.jpg")
+    background-image: url("../images/startbackground.jpg")
 }
 
 .mainPage {
@@ -8,7 +8,7 @@
     text-align: center;
     padding: 40px;
     margin-left: 250px;
-    background-image: url("/Users/kaceehiggins/Documents/BootCamp/Trivia-Game/assets/images/mainpagebackground.jpeg");
+    background-image: url("../images/mainpagebackground.jpeg");
 
 }
 
@@ -18,12 +18,11 @@
 }
 
 #start {
-    background-color: green;
     position: relative;
     top: 150px; 
     padding-top: 100px;
     padding-bottom: 100px;  
-    background-image: url("/Users/kaceehiggins/Documents/BootCamp/Trivia-Game/assets/images/startbackground.jpg");
+    background-image: url("../images/startbackground.jpg");
 }
 
 #startButton {

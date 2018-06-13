@@ -1,7 +1,7 @@
 var timerId = setInterval(countdown, 1000);
 var correctAnswers = 0;
 var wrongAnswers = 0;
-var timeLeft = 10;
+var timeLeft = 30;
 
 
 $( "#gameOverScreen").hide();
@@ -11,13 +11,13 @@ $( ".mainPage" ).hide();
 
 
 $( "#reset" ).click(function() {
-    
-    timeLeft= 5;
+    timeLeft= 30;
     countdown();
     $( "#gameOverScreen").hide();
     $( ".mainPage" ).show();
     $(".correct").prop( "checked", false )
     $(".incorrect").prop( "checked", false )
+    
     
 });
 
@@ -25,7 +25,7 @@ $( "#reset" ).click(function() {
 
 
 $( "#startButton" ).click(function() {
-    timeLeft= 5;
+    timeLeft= 30;
     countdown();
     $( "#start").hide();
     $( ".mainPage" ).show();

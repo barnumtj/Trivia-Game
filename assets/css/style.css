@@ -1,0 +1,53 @@
+#background {
+    background-image: url("/Users/kaceehiggins/Documents/BootCamp/Trivia-Game/assets/images/startbackground.jpg")
+}
+
+.mainPage {
+    width: 600px;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    margin-left: 250px;
+    background-image: url("/Users/kaceehiggins/Documents/BootCamp/Trivia-Game/assets/images/mainpagebackground.jpeg");
+
+}
+
+#button {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#start {
+    background-color: green;
+    position: relative;
+    top: 150px; 
+    padding-top: 100px;
+    padding-bottom: 100px;  
+    background-image: url("/Users/kaceehiggins/Documents/BootCamp/Trivia-Game/assets/images/startbackground.jpg");
+}
+
+#startButton {
+    margin-left: 550px;
+    position: absolute;
+    bottom: 250px;
+
+}
+
+#startP {
+    margin-left: 460px;
+    position: absolute;
+    bottom: 205px;
+}
+
+#gameOverScreen {
+    position: absolute;;
+    left: 500px;
+    top: 50px;
+  
+}
+
+#reset {
+    position: absolute;
+    left: 30px;
+}
+
